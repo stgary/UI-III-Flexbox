@@ -82,10 +82,10 @@ header {
 }
 
 header nav {
-	display: flex;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 100%;
 }
 
 header nav a {
@@ -153,8 +153,9 @@ h1 {
 }
 
 hr {
-	width: 95%;
-    margin: 3%
+	width: 100%;
+    margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 /* footer */
@@ -169,3 +170,78 @@ hr {
 }
 
 /* services.html styling */
+
+/* services section one */
+
+.content-one-container {
+	margin: 3% 0;
+}
+
+.container {
+	margin: 0 5%;
+}
+
+.services {
+	margin: 0;
+}
+
+.services-header-img {
+	width: 100%;
+}
+
+h6 {
+	margin: 3% 0;
+	font-family: 'Bangers', cursive;
+	font-size: 30px;
+}
+
+/* services section two */
+
+.parent {
+	display: flex;
+}
+
+.child-one {
+	margin-right: 5%;
+}
+
+.grandchild{
+	margin: 3% 0 3% 0;
+	border: 1px solid black;
+	padding: 5%;
+}
+
+.grandchild button {
+    width: 30%;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.content-facts-container {
+	display: flex;
+}
+
+.content-facts {
+	width: 45%
+}
+
+.content-facts p {
+	margin: 5% 0 5% 0%;
+}
+
+.img-container {
+	width: 45%;
+    margin-left: 13%;
+}
+
+ul {
+	list-style-type: square;
+	margin-left: 3%;
+}
+
+.copyright-great-idea {
+	display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 3% 0 0 0;
+}
